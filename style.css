@@ -1,0 +1,42 @@
+/*///////////////////////////////////////////////////////////////
+                          Style                            
+//////////////////////////////////////////////////////////////*/
+
+.carousel-image {
+	height: 300px;
+	width: 700px;
+    animation: fadein 1s;
+}
+
+.change-slide-button {
+	width: 75px;
+	height: 12px;
+	padding-right: 6px;
+	background-color: gray;
+	border-right: 2px solid black;
+}
+
+.active-button {
+	background-color: white;
+}
+
+.change-slide-button:last-child {
+	border-right: none;
+}
+
+.change-slide-button:hover {
+  background-color: white;
+}
+
+.slide-control-container {
+	padding-top: 16px;
+}
+
+/*///////////////////////////////////////////////////////////////
+                          Animations                           
+//////////////////////////////////////////////////////////////*/
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>;_;</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	<link href="./style.css" rel="stylesheet" >
+</head>
+<body class="bg-dark">
+	<header class="p-3 bg-dark text-white">
+		<div class="container">
+			<div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+
+				<ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+					<li><a href="./index.html" class="nav-link px-2 text-secondary">Home</a></li>
+					<li><a href="./about.html" class="nav-link px-2 text-white">O aplikaciji</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
+	<div class="d-flex justify-content-center">
+		<div class="carousel">
+			<div class="slike">
+				<div class="carousel-item active" id="image0">
+					<img src="./slike/001.webp" class="d-block carousel-image" alt="...">
+				</div>
+				<div class="carousel-item" id="image1">
+					<img src="./slike/002.jpg" class="d-block carousel-image" alt="...">
+				</div>
+				<div class="carousel-item" id="image2">
+					<img src="./slike/003.jpg" class="d-block carousel-image" alt="...">
+				</div>
+				<div class="carousel-item" id="image3">
+					<img src="./slike/004.jpg" class="d-block carousel-image" alt="...">
+				</div>
+				<div class="carousel-item" id="image4">
+					<img src="./slike/005.png" class="d-block carousel-image" alt="...">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="d-flex justify-content-center slide-control-container">
+		<div class="change-slide-button active-button" id="imageControl0" onclick=changeToImg(0)></div>
+		<div class="change-slide-button" id="imageControl1" onclick=changeToImg(1)></div>
+		<div class="change-slide-button" id="imageControl2" onclick=changeToImg(2)></div>
+		<div class="change-slide-button" id="imageControl3" onclick=changeToImg(3)></div>
+		<div class="change-slide-button" id="imageControl4" onclick=changeToImg(4)></div>
+
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="./index.js"></script>
+</body>
+</html>
